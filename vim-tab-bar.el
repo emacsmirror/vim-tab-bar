@@ -57,7 +57,9 @@
   "Non-nil if vim-tab-bar mode mode is enabled."
   :group 'vim-tab-bar
   :prefix "vim-tab-bar-"
-  :link '(url-link "https://github.com/jamescherti/vim-tab-bar.el"))
+  :link '(url-link
+          :tag "Github"
+          "https://github.com/jamescherti/vim-tab-bar.el"))
 
 (defcustom vim-tab-bar-format-tabs-groups
   '(tab-bar-format-tabs-groups tab-bar-separator)
