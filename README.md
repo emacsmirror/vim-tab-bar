@@ -43,7 +43,7 @@ To install *vim-tab-bar* from MELPA:
 2. Add the following code to your Emacs init file to install *vim-tab-bar* from MELPA:
 ```emacs-lisp
 (use-package vim-tab-bar
-  :config
+  :init
   (vim-tab-bar-mode 1))
 ```
 
