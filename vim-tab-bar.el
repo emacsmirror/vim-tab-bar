@@ -5,7 +5,7 @@
 ;; Author: James Cherti <https://www.jamescherti.com/contact/>
 ;; Version: 1.1.5
 ;; URL: https://github.com/jamescherti/vim-tab-bar.el
-;; Keywords: frames
+;; Keywords: convenience, frames
 ;; Package-Requires: ((emacs "28.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -51,7 +51,7 @@
 
 (defgroup vim-tab-bar nil
   "Non-nil if vim-tab-bar mode mode is enabled."
-  :group 'vim-tab-bar
+  :group 'tab-bar
   :prefix "vim-tab-bar-"
   :link '(url-link
           :tag "Github"
